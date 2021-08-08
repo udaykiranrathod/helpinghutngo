@@ -1,0 +1,329 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:  auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+
+
+
+.welcome{
+    text-align: center;
+    padding: 100px;
+    font-size: 1.5em;
+    
+}
+
+.joinus{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7) url(joinbackground.jpeg);
+    background-blend-mode: darken;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.join{
+    padding-top: 100px;
+    color: white;
+    font-size: 3em;
+}
+.joinlink{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.our{
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+}
+
+
+#first {
+    background-color: cyan;
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    font-size: 2em;
+    margin: 30px;
+    
+}
+
+.vision1{
+    background-color: rgb(224, 137, 210);
+  
+    padding: 48px;
+}
+
+.vision2{
+    background-color: rgb(218, 224, 125);
+   
+    padding: 48px;
+}
+
+
+#second{
+    text-align: center;
+   
+    margin: 30px;
+}
+
+.beggar{
+    padding-top: 40px;
+    font-size: 3em;
+}
+
+.btndonate{
+    background-color: rgb(235, 109, 109);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+#third{
+    text-align: center;
+   
+    margin: 30px;
+}
+
+.edu{
+  padding: 20px;
+    font-size: 2.4em;
+}
+
+
+
+#fourth{
+    text-align: center;
+   
+    margin: 30px;
+}
+
+.camp{
+    padding-top: 40px;
+    font-size: 3em;
+}
+
+.btncamp{
+    background-color: rgb(235, 109, 109);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.video{
+    align-items: center;
+}
+.magazine{
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+
+}
+.click{
+    background-color: rgb(28, 229, 236);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 40px;
+}
+
+#youtube{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.students{
+
+    background-image: url(students.jpeg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.txt{
+    padding-top: 200px;
+    color: rgb(138, 243, 247);
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+
+.abtbtn{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* DONATE */ 
+
+.donate{
+    text-align: center;
+    font-size: 3em;
+    padding: 200px;
+   
+}
+
+.donateimg{
+    align-items: center;
+    padding: 500px;
+}
+
+#imgcntr{
+    align-items: center;
+}
+
+.buddu a{
+    color: black;
+}
+.buddu{
+    display: flex;
+    font-size: 2em;
+    justify-content: space-between;
+}
+.buddu li:hover{
+    opacity: 50%;
+}
+
+.joinu{
+    font-size: 2em;
+}
+.clck{
+    font-size: 1.8em;
+    text-align: center;
+    
+ cursor: pointer;
+    padding: 10px;
+}
+.clck button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.clck button:hover{
+    opacity: 50%;
+}
+.mailus{
+    align-items: center;
+    font-size: 1.5em;
+}
+.mailus button{
+    height: 50px;
+    width: 80px;
+    background-color: cyan;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.min{
+ text-align: center;
+}
+.min h1{
+    text-align: center;
+   font: 1.5em;
+}
+.min p {
+    font-size: 1.5em;
+}
+
+.mass img{
+    align-items: center;
+   display: flex;
+    padding: 50px;
+}
+
+.mass{
+   align-items: center;
+}
+
+
+
+.camp{
+    text-align: center;
+    padding: 100px;
+    font-size: 1.5em;
+    
+}
+
+.challenge{
+    text-align: center;
+    font-size: 1.5em;
+}
